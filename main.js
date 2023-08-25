@@ -48,10 +48,10 @@ function gotResults(error, results) {
 
     img = document.getElementById("animal_image");
 
-    if (results[0].label == "Latido") {
+    if(results[0].label == "Cachorro") {
       img.src = "cachorro-independente-1.jpg";
       dog = dog + 1;
-    } else if (results[0].label == "Miado") {
+    } else if (results[0].label == "Gato") {
       img.src = "enxoval-para-gato-Copia.jpg";
       cat = cat + 1;
     } else {
